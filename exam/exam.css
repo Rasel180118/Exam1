@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header top*/
+.header-top{
+    background: #fff;
+}
+.header-logo img{
+    width: 60px;
+    height: auto;
+}
+.header-top-menu ul{
+    text-align: right;
+}
+.header-top-menu ul li{
+    display: inline-block;
+}
+.header-top-menu ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 30px;
+    line-height: 74px;
+    margin-bottom: 0;
+}
+.header-top-menu ul li a:hover{
+    color: rgb(11, 14, 238);
+}
+/*Header part*/
+.header{
+    background: rgba(0, 0, 0, 0.781);
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: block;
+    color: white;
+    margin-left: -4px;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 25px;
+    line-height: 74px;
+    margin-bottom: 0;
+}
+.header-menu ul li a:hover{
+    color: red;
+}
+.social-menu{
+    text-align: right;
+}
+.social-menu li{
+    display: inline-block;
+    padding: 4px 10px;
+}
+.social-menu li a{
+    line-height: 74px;
+    color: white;
+    font-size: 33px;
+}
+/*banner part*/
+.banner-img img{
+    max-width: 100%;
+}
+/*Service*/
+.service{
+    background: #f9f9f9;
+}
+.card span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background: #3498db;
+    margin: auto;
+    font-size: 35px;
+    color: white;
+    line-height: 60px;
+    border-radius: 0 20px;
+}
+.card h2{
+    margin: 20px 0;
+    font-size: 30px;   
+}
+.card p{
+    color: #767676;
+}
+/*Product*/
+.product{
+    background: #fafafa;
+}
+.text p{
+    font-size: 19px;
+}
+.notice ul{
+    list-style: none;
+}
+.notice ul li{
+    background: #f7f7f7;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/*footer*/
+.footer-text{
+    background: rgba(0, 0, 0, 0.781);
+    color: white;
+    padding: 10px 0;
+}
+.footer-text p{
+    font-size: 20px;
+}
